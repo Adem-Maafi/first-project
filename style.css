@@ -1,0 +1,183 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #333; 
+    text-align: center;
+   
+    height: 50px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover {
+    color: blueviolet; 
+}
+
+.logo {
+    color: aliceblue;
+    position: absolute;
+    left: 20px;
+    top: -8px; 
+    height: 40px;
+    width: 40px;
+    inline-size: auto;
+   
+}
+.search-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+#Search {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    top: -70px;
+    left: 600px;
+}
+
+
+#Search:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+
+#Search::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+
+#Search:hover {
+    border-color: #007BFF;
+}
+
+
+@media (max-width: 600px) {
+    .search-container {
+        padding-top: 10px;
+        max-width: 100%;
+    }
+
+    #Search {
+        font-size: 14px;
+    }
+}
+
+.honda {
+  position: relative;
+    left: 20px;
+    top: 100px; 
+    height: 100px;
+    width: 100px;
+    inline-size: auto;
+    display: block;  
+            margin-left: 100px;  
+            margin-right: 100px;
+            background: rgba(255, 255, 255, 0.5);
+            width: 500px;
+            height: 300px;
+}
+
+
+
+#img-honda{
+    position: absolute;
+    left: 80px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+
+
+.container{
+	width: 80%;
+    margin: 0 auto;
+}
+.moto{
+	border: 1px solid #ddd;
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+	height: 215px;
+}
+#btn-honda {
+    background: #020202;
+    border: 0px;
+    color: #fff;
+    position: absolute;
+    padding: 5px 20px;
+    top: 20px;
+    right: 20px;
+}
+#btn-kawasaki {
+    background: #020202;
+    border: 0px;
+    color: #fff;
+    position: absolute;
+    padding: 5px 20px;
+    top: 20px;
+    right: 20px;
+}
+#btn-suzuki{
+    background: #020202;
+    border: 0px;
+    color: #fff;
+    position: absolute;
+    padding: 5px 20px;
+    top: 20px;
+    right: 20px;
+}
+a {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+
